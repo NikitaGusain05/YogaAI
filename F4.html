@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Instruction</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            #container{
+                min-height: 100vh;
+                width: 100%;
+                background-image: url("images/instruc.png");
+                background-position: center;
+                background-size:cover;
+                position: relative;
+            }
+            #logo{
+                height: 140px;
+                width: 200px;   
+            }
+            .hed{
+                position: absolute;
+                width: 100%; 
+                top:25%;
+                left:50%;
+                font-weight: bolder;
+                font-size: xx-large;
+                text-transform: uppercase;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color: rgb(26, 15, 130);
+            }
+            #first{
+                position: absolute;
+                top: 35%;
+                left: 5%;
+            }
+            #second{
+                position: absolute;
+                top: 60%;
+                left: 40%; 
+            }
+            #photo{
+                position: absolute;
+                top: 60%;
+                left: 57%;
+                height: 200px;
+                width: 200px;
+            }
+            #third{
+                position: absolute;
+                top: 35%;
+                left: 73%;
+                
+            }
+            #pic{
+                width: 15%;
+                position: absolute;
+                left:84%;
+                top:17%
+
+            }
+            .str{
+                position: relative;
+                left:800px;
+                top:400px;
+                display: inline-block;
+                text-decoration: none;
+                color: deeppink;
+                border: 1px solid deeppink;
+                padding: 15px 34px;
+                font-size: 17px;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+            }
+            .str:hover{
+                background-color: deeppink ;
+                color: white;
+                transition: 0.5s;
+            }
+            #pic>img{
+                height: 150px;
+                width: 130px;;
+            }
+            p{
+                font-size:25px;
+                color: deeppink;
+            }
+            h1{
+                color: rgb(26, 15, 130);
+            }  
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <a href="index.html"><img src="images/logo.png" id="logo"> </a>
+            <h2 class="hed">Instructions</h2>
+           
+            <div id="first">
+                <h1>1.</h1>
+                <p> Accept camera accessing<br>and wait for <br>the webcam to load </p><br>
+                <img src="images/cam.png" alt="pic" height="120px" width="250px"/>
+            </div>
+            <div id="second">
+                <h1>2.</h1>
+                <p>Perform the same pose<br>as the image on the right, <br>making sure to face the<br>same direction</p>
+            </div>
+            <div id="photo">
+                <img src="images/pose.png" alt="pic" height="170px" width="180px"/>
+            </div>
+            <div id="pic">
+                <img src="images/timer.png" alt="pic"/>
+            </div>
+            <div id="third">
+                <h1>3.</h1>
+                <p>Hold for 30 seconds,<br>the timer will reset if you <br>make  a mistake.Make sure<br>to complete all poses.Enjoy!</p>
+            </div>
+            <a href="Practice.html" class="str">Let's Begin</a>
+        </div>
+    </body>
+</html>
