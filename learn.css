@@ -1,0 +1,44 @@
+*{
+    color:deeppink
+}
+.parent{
+    
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    left: 53%;
+    top:5%;
+}
+.parent>h1{
+    text-align: center;
+    font-size: 40px;
+}
+#poseImg{
+    position: absolute;
+    left: 64%;
+    top:15%;
+    height: inherit;
+    width: 60%;
+    border: 2px green inset;
+}
+#sec{
+    position:absolute;
+    left:64%;
+    top:90%
+
+}
+#timer{
+    position:absolute;
+    left:71%;
+    top:80%
+}
+#finish{
+    position: relative;
+    left: 20%;
+    top: 80%;
+}
+#welldone{
+    position: absolute;
+    left: 10%;
+    bottom: 4%;
+}

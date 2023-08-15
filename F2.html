@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Yogasthali</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            #container{
+                min-height: 100vh;
+                width: 100%;
+                background-image: url("images/2nd.png");
+                background-position: center;
+                background-size:contain;
+                position: relative;
+            }
+            a::after{
+                content: '';
+                width:0%;
+                height: 2px;
+                background: #f44336;
+                display: block;
+                margin: auto;
+                transition:0.5s;
+            }
+            a:hover::after{
+                width:100%;
+            }
+            .str{
+                display: inline-block;
+                text-decoration: none;
+                color: deeppink;
+                border: 1px solid deeppink;
+                font-size: 17px;
+                text-align: center;
+                padding: 15px 34px;
+                position: absolute;
+                top: 45%;
+                background: transparent;
+                cursor: pointer;
+            }
+            .str:hover{
+                background-color: deeppink ;
+                color: white;
+                transition: 0.5s;
+            }
+            #logo{
+                height: 140px;
+                width: 200px;   
+            }
+            nav{
+                width: 30%;
+                height: 160px;
+                position: fixed;
+                display:flex;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            
+            <nav>      
+                <a href="index.html"><img src="images/logo.png" id="logo"> </a>
+            </nav>
+            <a href="F3.html" class="str" style="left: 8%;"><h2>Learn</h2></a>
+            <a href="F4.html" class="str" style="left: 80%;"><h2>Practice</h2></a>
+        </div>
+    </body>
+</html>

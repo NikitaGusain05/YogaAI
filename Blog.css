@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, rgba(14, 90, 166,0.7) 5%,  rgba(38, 38, 194,0.7)50%, rgba(166, 18, 127, 0.7));   
+    position: relative;
+}
+#logo{
+    height: 110px;
+    width: 160px;
+    position: sticky;
+}
+h1{
+    position: absolute;
+    top:28%;
+    left:6%;
+    color: white;
+    font-size: 13vh;
+    word-spacing: 5vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#first{
+    position: absolute;
+    width: 85%;
+    top:45%;
+    left:6%;
+    color: white;
+    font-size: 4vh;
+    word-spacing: 1vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#second{
+    position: absolute;
+    width: 85%;
+    top:63%;
+    left:6%;
+    color: white;
+    font-size: 4vh;
+    word-spacing: 1vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    top:88%;
+    left:10%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:50%;
+    padding: 10px;
+    margin-left:40px;
+}
+.card:hover{
+   width: 72%;
+   height: 52%;
+}
+.card>a>img{
+    width:50%;
+    height:100%;
+    display:block;
+    cursor: pointer;
+}
+.card>h2{
+    position: absolute;
+    width: 40%;
+    top:10%;
+    left:53%;
+    font-size: 6vh;
+    word-spacing: 2vh;
+}
+.date{
+    position: absolute;
+    width:40%;
+    top:30%;
+    left:50%;
+    display: flex;
+    font-size: 4vh;
+    justify-content:center;
+}
+.desc{
+    position: absolute;
+    width:45%;
+    top:50%;
+    left:53%;
+    font-size: 3vh;
+    padding: 0;   
+}
+#bunch{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top:145%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:80%;
+    padding: 10px;
+    margin-left:20px;
+}
+#bunch1{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top:145%;
+    left:33%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:80%;
+    padding: 10px;
+    margin-left:20px;
+}
+#bunch2{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top:145%;
+    left:66%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:80%;
+    padding: 10px;
+    margin-left:20px;
+}
+#bunch:hover{
+   width: 31%;
+   height: 81%;
+}
+#bunch1:hover{
+   width: 31%;
+   height: 81%;
+}
+#bunch2:hover{
+   width: 31%;
+   height: 81%;
+}
+.B{
+    width:100%;
+    height:50%;
+    cursor: pointer;
+
+}
+.H{
+    position: absolute;
+    width: 80%;
+    top:50%;
+    left:3%;
+    font-size: 5vh;
+}
+.info{
+    position: absolute;
+    width:70%;
+    top:62%;
+    left:3%;
+    font-size: 3vh;
+}
+.descr{
+    position: absolute;
+    width:80%;
+    top:70%;
+    left:3%;
+    font-size: 3vh;
+    padding: 0;   
+}
+#punch{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top:230%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:80%;
+    padding: 10px;
+    margin-left:20px;
+}
+#punch1{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top:230%;
+    left:33%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:80%;
+    padding: 10px;
+    margin-left:20px;
+}
+#punch2{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top:230%;
+    left:66%;
+    box-shadow: 2px 2px 5px deeppink;
+    height:80%;
+    padding: 10px;
+    margin-left:20px;
+}
+#punch:hover{
+    width: 31%;
+    height: 81%;
+   
+ }
+ #punch1:hover{
+    width: 31%;
+    height: 81%;
+ }
+ #punch2:hover{
+    width: 31%;
+    height: 81%;
+ }
